@@ -1,2 +1,2 @@
-# neo-organization-chart
-A Neo4j, ElasticSearch and Python location tree chart implementation 
+# neo-location-tree
+A Neo4j, ElasticSearch and Python location tree implementation 
