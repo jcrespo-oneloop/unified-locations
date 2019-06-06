@@ -1,0 +1,38 @@
+Collecting graphene-neo4j
+  Downloading https://files.pythonhosted.org/packages/53/42/b1037a9911c54eb8d2a120302a91ee6f3968b7ce3b03e1099d538b0709bb/graphene_neo4j-2.2.3.6-py2.py3-none-any.whl (73kB)
+Collecting lazy-import==0.2.2 (from graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/44/2e/5378f9b9cbc893826c2ecb022646c97ece9efbaad351adf89425fff33990/lazy_import-0.2.2.tar.gz
+Collecting neomodel-next>=3.3.0 (from graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/d1/f3/8fdaa6b9d0c171c55a1e8dd95d53a5b069abc680d52d3fbcf1467664260f/neomodel_next-3.4.3-py3-none-any.whl (69kB)
+Collecting graphql-core<3,>=2.1.0 (from graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/35/dd/2dff553c929d059e53a95a8bcff66f6a3930d736dfea17f88d16229eaf84/graphql_core-2.1-py2.py3-none-any.whl (249kB)
+Collecting promise>=2.1 (from graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/5a/81/221d09d90176fd90aed4b530e31b8fedf207385767c06d1d46c550c5e418/promise-2.2.1.tar.gz
+Requirement already satisfied: Django>=1.11 in /home/dev08/.local/lib/python3.6/site-packages (from graphene-neo4j)
+Collecting singledispatch>=3.4.0.3 (from graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/c5/10/369f50bcd4621b263927b0a1519987a04383d4a98fb10438042ad410cf88/singledispatch-3.4.0.3-py2.py3-none-any.whl
+Requirement already satisfied: six>=1.10.0 in /usr/lib/python3/dist-packages (from graphene-neo4j)
+Requirement already satisfied: pytz>=2016.10 in /home/dev08/.local/lib/python3.6/site-packages (from neomodel-next>=3.3.0->graphene-neo4j)
+Collecting numpy>=1.12.1 (from neomodel-next>=3.3.0->graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/87/2d/e4656149cbadd3a8a0369fcd1a9c7d61cc7b87b3903b85389c70c989a696/numpy-1.16.4-cp36-cp36m-manylinux1_x86_64.whl (17.3MB)
+Collecting python-dateutil==2.8.0 (from neomodel-next>=3.3.0->graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+Collecting neo4j-driver<1.7.0,>=1.5.2 (from neomodel-next>=3.3.0->graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/12/db/1c68c1c244ea4afedf14459645a9c5e4124b9fbec12b2da02ed084ac32f7/neo4j-driver-1.6.3.tar.gz (188kB)
+Collecting rx>=1.6.0 (from graphql-core<3,>=2.1.0->graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/33/0f/5ef4ac78e2a538cc1b054eb86285fe0bf7a5dbaeaac2c584757c300515e2/Rx-1.6.1-py2.py3-none-any.whl (179kB)
+Requirement already satisfied: sqlparse in /home/dev08/.local/lib/python3.6/site-packages (from Django>=1.11->graphene-neo4j)
+Collecting neotime<1.8,>=1.7.1 (from neo4j-driver<1.7.0,>=1.5.2->neomodel-next>=3.3.0->graphene-neo4j)
+  Downloading https://files.pythonhosted.org/packages/0b/7e/ca368a8d8e288be1352d4e2df35da1e01f8aaffbf526695df71630bcb8a6/neotime-1.7.4.tar.gz
+Installing collected packages: lazy-import, numpy, python-dateutil, neotime, neo4j-driver, neomodel-next, promise, rx, graphql-core, singledispatch, graphene-neo4j
+  Running setup.py install for lazy-import: started
+    Running setup.py install for lazy-import: finished with status 'done'
+  Found existing installation: python-dateutil 2.6.1
+    Not uninstalling python-dateutil at /usr/lib/python3/dist-packages, outside environment /usr
+  Running setup.py install for neotime: started
+    Running setup.py install for neotime: finished with status 'done'
+  Running setup.py install for neo4j-driver: started
+    Running setup.py install for neo4j-driver: finished with status 'done'
+  Running setup.py install for promise: started
+    Running setup.py install for promise: finished with status 'done'
+Successfully installed graphene-neo4j-2.2.3.6 graphql-core-2.1 lazy-import-0.2.2 neo4j-driver-1.6.3 neomodel-next-3.4.3 neotime-1.7.4 numpy-1.16.4 promise-2.2.1 python-dateutil-2.8.0 rx-1.6.1 singledispatch-3.4.0.3
