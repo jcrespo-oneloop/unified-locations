@@ -34,4 +34,3 @@ class CreateLocation(graphene.Mutation):
 
 class Mutation(graphene.ObjectType):
     create_location = CreateLocation.Field()
-
