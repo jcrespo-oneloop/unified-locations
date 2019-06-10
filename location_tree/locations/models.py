@@ -7,6 +7,7 @@ class LocationRelationship(neomodel.StructuredRel):
     on_date = neomodel.DateProperty(default_now = True)
 
 class Location(neomodel.StructuredNode):
+    location_id = neomodel.IntegerProperty(unique_index=True)
     name = neomodel.StringProperty(required=True)
     parent = neomodel.RelationshipTo("Location", "IS_IN", neomodel.ZeroOrOne, model = LocationRelationship)
 
